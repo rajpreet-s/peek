@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Peek",
+    "version": "1.0",
+    "description": "Search and switch between your open tabs.",
+    "permissions": ["tabs", "storage", "sessions", "bookmarks"],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "images/icon16.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+        }
+    },
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+Space",
+                "mac": "MacCtrl+Shift+Space"
+            },
+            "description": "Open Tab Search"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    }
+}

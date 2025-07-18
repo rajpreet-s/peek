@@ -1,11 +1,11 @@
 {
     "manifest_version": 3,
-    "name": "Peek",
+    "name": "Peek (Dev)",
     "version": "1.0",
     "description": "Search and switch between your open tabs.",
     "permissions": ["tabs", "storage", "sessions", "bookmarks"],
     "action": {
-        "default_popup": "popup.html",
+        "default_popup": "index.html",
         "default_icon": {
             "16": "images/icon16.png",
             "48": "images/icon48.png",
